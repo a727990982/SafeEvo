@@ -1,0 +1,13 @@
+# Install the CUDA build of PyTorch suitable for your GPU first.
+# Dependency list, not an exact lock of the historical training environments.
+torch
+transformers
+datasets
+accelerate
+trl
+peft
+numpy
+tqdm
+safetensors
+sentencepiece
+protobuf
